@@ -4,6 +4,7 @@
 </h1>
 
 <p align="center"><strong>A simple theme for Firefox with slightly rounded edges, Tela icons and some tweaks.</strong></p>
+<p align="center">This is a variation of the Kore theme, but uses Tela by vinceliuice icons instead of Papirus, as well as other small changes.</p>
 
 ## Light Theme
 ![Light Theme](preview1.png)
