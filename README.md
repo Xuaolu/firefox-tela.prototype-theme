@@ -101,5 +101,3 @@ I changed the size of the "Flexible Space" to correct the space between the new 
 **[bmFtZQ](https://github.com/bmFtZQ/edge-frfox)**
 
 **[datguypiko](https://github.com/datguypiko/Firefox-Mod-Blur)**
-# firefox-tela.prototype-theme
-# firefox-tela.prototype-theme
