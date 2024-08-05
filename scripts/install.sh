@@ -10,7 +10,7 @@ while getopts 'f:p:g:t:h' flag; do
 	f) FIREFOXFOLDER="${OPTARG}" ;;
 	p) PROFILENAME="${OPTARG}" ;;
 	h)
-		echo "Firefox Kore Theme Install Script:"
+		echo "Firefox Tela.Prototype Theme Install Script:"
 		echo "  -f <firefox_folder_path>. Set custom Firefox folder path."
 		echo "  -p <profile_name>. Set custom profile name."
 		echo "  -h to show this message."
@@ -35,7 +35,7 @@ function saveProfile(){
 	# Create single-line user CSS files if non-existent or empty.
 	if [ -s userChrome.css ]; then
 		# Remove older theme imports
-		sed 's/@import "firefox-kore-theme.*.//g' userChrome.css | sed '/^\s*$/d' > userChrome.css
+		sed 's/@import "firefox-tela.prototype-theme.*.//g' userChrome.css | sed '/^\s*$/d' > userChrome.css
 		echo >> userChrome.css
 	else
 		echo >> userChrome.css
@@ -43,21 +43,21 @@ function saveProfile(){
 
 	if [ -s userContent.css ]; then
 		# Remove older theme imports
-		sed 's/@import "firefox-kore-theme.*.//g' userContent.css | sed '/^\s*$/d' > userContent.css
+		sed 's/@import "firefox-tela.prototype-theme.*.//g' userContent.css | sed '/^\s*$/d' > userContent.css
 		echo >> userContent.css
 	else
 		echo >> userContent.css
 	fi
 
 	# Import this theme at the beginning of the CSS files.
-	sed -i '1s/^/@import "firefox-kore-theme\/userChrome.css";\n/' userChrome.css
-	sed -i '1s/^/@import "firefox-kore-theme\/userContent.css";\n/' userContent.css
+	sed -i '1s/^/@import "firefox-tela.prototype-theme\/userChrome.css";\n/' userChrome.css
+	sed -i '1s/^/@import "firefox-tela.prototype-theme\/userContent.css";\n/' userContent.css
 
 	cd ..
 
-	# Symlink user.js to firefox-kore-theme one.
+	# Symlink user.js to firefox-tela.prototype-theme one.
 	echo "Set configuration user.js file"
-	ln -fs chrome/firefox-kore-theme/configuration/user.js user.js
+	ln -fs chrome/firefox-tela.prototype-theme/configuration/user.js user.js
 
 	echo "Done."
 	cd ..

@@ -1,9 +1,9 @@
 <h1 align="center">
 	<img src="logo.png" alt="Firefox Papirus icon theme" width="96" height="96"/><br>
- Firefox Kore Theme
+ Firefox Tela.Prototype Theme
 </h1>
 
-<p align="center"><strong>A simple theme for Firefox with slightly rounded edges, Papirus icons and some tweaks.</strong></p>
+<p align="center"><strong>A simple theme for Firefox with slightly rounded edges, Tela icons and some tweaks.</strong></p>
 
 ## Light Theme
 ![Light Theme](preview1.png)
@@ -23,7 +23,7 @@ This is a Firefox theme that combines things I like and have found in other them
 Clone this repo and enter folder and run script:
 
 ```sh
-git clone https://github.com/Xuaolu/firefox-kore-theme.git && cd firefox-kore-theme
+git clone https://github.com/Xuaolu/firefox-tela.prototype-theme.git && cd firefox-tela.prototype-theme
 ./scripts/install.sh
 ```
 
@@ -58,7 +58,7 @@ uc.tweak.rounded-corners
 ### Adds a custom background image to the new tab page.
 
 #### Required setup:
-* In your `chrome/firefox-kore-theme/theme/` folder, add an image with a filename of background-0.(jpg/png).
+* In your `chrome/firefox-tela.prototype-theme/theme/` folder, add an image with a filename of background-0.(jpg/png).
 * Optionally, add a second image named background-1.(jpg/png) this will be selected when the dark theme is enabled.
 ```
 uc.tweak.newtab-background
