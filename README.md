@@ -6,7 +6,7 @@
 <p align="center"><strong>A simple theme for Firefox with slightly rounded edges, Tela icons and some tweaks.</strong></p>
 <p align="center">This is a variation of the Kore theme, but uses Tela by vinceliuice icons instead of Papirus, as well as other small changes.</p>
 
-## Light Theme
+## Preview
 ![Preview](preview1.png)
 
 ## Description
@@ -91,6 +91,8 @@ I changed the size of the "Flexible Space" to correct the space between the new 
 
 
 ## Credits
+**[vinceliuice](https://github.com/vinceliuice/Tela-icon-theme)**
+
 **[Rafael Mardojai CM](https://github.com/rafaelmardojai/firefox-gnome-theme)** and [contributors](https://github.com/rafaelmardojai/firefox-gnome-theme/graphs/contributors). 
 
 **[Sai Kurogetsu](https://github.com/kurogetsusai/firefox-gnome-theme)**
