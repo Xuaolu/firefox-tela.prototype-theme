@@ -7,10 +7,7 @@
 <p align="center">This is a variation of the Kore theme, but uses Tela by vinceliuice icons instead of Papirus, as well as other small changes.</p>
 
 ## Light Theme
-![Light Theme](preview1.png)
-
-## Dark Theme with full width tabs
-![Dark Theme](preview2.png)
+![Preview](preview1.png)
 
 ## Description
 
