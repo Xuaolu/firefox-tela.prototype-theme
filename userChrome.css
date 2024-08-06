@@ -2,9 +2,9 @@
 
 /* General */
 :root {
-    --toolbarbutton-border-radius: 8px !important;
+    --toolbarbutton-border-radius: 6px !important;
     --uc-tweak-rounded-corners-padding: 4px;
-    --uc-tweak-rounded-corners-radius: 8px;
+    --uc-tweak-rounded-corners-radius: 6px;
     --uc-tweak-rounded-corners-shadow: 0 -.8px 0 0 rgb(0 0 0 / 0.02), 0 0.5px 1px 1px rgb(0 0 0 / 0.06), 0 1px 1px rgb(0 0 0 / 0.1);
     --browser-frame-bgcolor: var(--toolbar-bgcolor, var(--lwt-accent-color));
 }
@@ -23,11 +23,11 @@ border-inline-start: none !important;
 
 #urlbar-background, #urlbar,
 #searchbar, #searchbar-background {
-border-radius: 8px !important;
+border-radius: 6px !important;
 }
 
 #TabsToolbar {
---tab-border-radius: 8px !important;
+--tab-border-radius: 6px !important;
 }
 
 #widget-overflow-list > #fxa-toolbar-menu-button #fxa-avatar-image,
@@ -47,7 +47,7 @@ border-radius: 8px !important;
     }
 
     .tabbrowser-tab:not([pinned]) .tab-label-container {
-        margin-right: -18px;
+        margin-right: -16px;
     }
 
     .tabbrowser-tab:not([pinned]):is([selected="true"], :hover) .tab-label-container[textoverflow="true"] {
@@ -98,7 +98,7 @@ border-radius: 8px !important;
 
     #main-window:not([chromehidden~="toolbar"]) {
     --uc-tweak-rounded-corners-padding: 4px;
-    --uc-tweak-rounded-corners-radius: 8px;
+    --uc-tweak-rounded-corners-radius: 6px;
     --uc-tweak-rounded-corners-shadow: 0 -.8px 0 0 rgb(0 0 0 / 0.02), 0 0.5px 1px 1px rgb(0 0 0 / 0.06), 0 1px 1px rgb(0 0 0 / 0.1);
     --browser-frame-bgcolor: var(--toolbar-bgcolor, var(--lwt-accent-color));
 
@@ -145,7 +145,7 @@ border-radius: 8px !important;
         position: absolute;
         inset: 0;
         border-radius: inherit;
-        box-shadow: var(--uc-tweak-rounded-corners-shadow, 0 0 transparent), 0 0 0 18px var(--browser-frame-bgcolor) !important;
+        box-shadow: var(--uc-tweak-rounded-corners-shadow, 0 0 transparent), 0 0 0 16px var(--browser-frame-bgcolor) !important;
         clip-path: inset(0);
         pointer-events: none;
     }
@@ -225,5 +225,3 @@ border-radius: 8px !important;
         border-top: none !important;
     }
 }
-
-

@@ -1,4 +1,4 @@
-/* Firefox-Tela.Prototype - content/newtab.css */
+/* Firefox-Kore - content/newtab.css */
 
 /*
   MARK: Default colours
@@ -113,7 +113,7 @@ url-prefix("about:home") {
   */
   .search-wrapper {
     & .search-handoff-button {
-      border-radius: 8px !important;
+      border-radius: 6px !important;
       background-position: 12px !important;
       padding-inline-start: 48px !important;
       white-space: nowrap !important;
@@ -169,7 +169,7 @@ url-prefix("about:home") {
   /* Sticky search bar header when scrolling. */
   @media (height > 700px) {
     body:not(.inline-onboarding) .fixed-search.visible-logo main {
-      padding-top: 248px !important;
+      padding-top: 246px !important;
 
       @media (-moz-bool-pref: "uc.tweak.hide-newtab-logo") {
         padding-top: 82px !important;
@@ -186,13 +186,13 @@ url-prefix("about:home") {
   */
   .top-site-outer {
     & .tile {
-      border-radius: 8px !important;
+      border-radius: 6px !important;
       height: 64px !important;
       width: 64px !important;
       box-shadow: rgb(0 0 0 / 0.1) 0px 2px 4px !important;
 
       & .icon-wrapper {
-        border-radius: 8px !important;
+        border-radius: 6px !important;
         width: 32px !important;
         height: 32px !important;
 
@@ -205,8 +205,8 @@ url-prefix("about:home") {
     & .default-icon,
     & .search-topsite {
       background-size: 32px !important;
-      height: 38px !important;
-      width: 38px !important;
+      height: 36px !important;
+      width: 36px !important;
     }
   }
 
@@ -214,7 +214,7 @@ url-prefix("about:home") {
     MARK: Recent activity cards
   */
   .card-outer {
-    --uc-border-radius: 8px;
+    --uc-border-radius: 6px;
 
     &,
     & .card,
@@ -293,7 +293,7 @@ url-prefix("about:home") {
     .search-handoff-button:enabled:hover:active {
       background-color: var(--uc-background-color-secondary) !important;
       border: 0 !important;
-      border-radius: 8px !important;
+      border-radius: 6px !important;
       padding-inline-start: 48px !important;
       --elevation: 4;
       box-shadow:
@@ -343,7 +343,7 @@ url-prefix("about:home") {
       --newtab-element-hover-color: rgb(239 239 239 / .3) !important;
       --newtab-element-active-color: rgb(239 239 239 / .45) !important;
       --text-shadow: 0 1px 2px #000;
-      --icon-shadow: drop-shadow(0 0.3px 0.8px #000);
+      --icon-shadow: drop-shadow(0 0.3px 0.6px #000);
       background-color: #252525 !important;
       background-image: var(--bg-0) !important;
       background-position: center !important;
